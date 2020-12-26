@@ -1,0 +1,20 @@
+.item {
+  padding: 8px 8px 16px;
+  width: calc((1155px - 100%) * 999);
+  max-width: 25%;
+  min-width: 20%;
+  box-sizing: border-box;
+
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+
+  &__image-wrapper {
+    height: 410px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+}

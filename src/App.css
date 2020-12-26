@@ -1,5 +1,9 @@
 body {
   background-color: #fff;
+  color: #222;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Arial, sans-serif;
 }
 
 ul {

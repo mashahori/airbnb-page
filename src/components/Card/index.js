@@ -1,22 +1,17 @@
-import { useState } from 'react';
-import { TextField, Button, withStyles } from '@material-ui/core';
-import './index.scss';
-
-const StyledButton = withStyles({
-  root: {
-    marginLeft: '20px',
-  }
-})(Button);
+//import InlineSVG from 'svg-inline-react';
+import "./index.scss";
 
 const Card = ({ rate, count, city, descr, price }) => (
   <div className="card__text text">
     <p>
-      <span>{rate}({count})</span>
+      <span className="text__rate">
+        {rate}({count})
+      </span>
       <span>{city}</span>
     </p>
     <p>{descr}</p>
     <p>
-      От {price} за человека
+      От <b className="text__price">{price}</b> за человека
     </p>
   </div>
 );

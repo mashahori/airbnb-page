@@ -1,0 +1,33 @@
+.date-picker {
+  &__button {
+    width: 250px;
+    border: 1px solid #DDDDDD;
+    padding: 12px 28px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 21px;
+
+    &:hover {
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+      background-color: transparent;
+    }
+
+    &__city {
+      font-weight: 600;
+    }
+
+    &__date {
+      color: #717171;
+    }
+
+    &__icon {
+      border-radius: 50%;
+      background-color: #FF385C;
+      width: 32px;
+      height: 32px;
+      text-align: center;
+    }
+  }
+}

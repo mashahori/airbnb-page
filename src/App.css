@@ -91,6 +91,14 @@ a {
   width: 304px;
 }
 
+.DateRangePickerInput__withBorder {
+  border: none;
+}
+
+.DateInput_input__focused {
+  border-color: #FF385C;
+}
+
 @media (max-width: 1240px) {
   .handler {
     padding: 0 40px;

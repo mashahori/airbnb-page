@@ -1,9 +1,15 @@
+html {
+  -ms-overflow-style: none;  /* IE 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
 body {
   background-color: #fff;
   color: #222;
   font-size: 16px;
   line-height: 20px;
   font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 ul {
@@ -12,18 +18,32 @@ ul {
   list-style: none;
 }
 
+p {
+  margin: 0;
+}
+
 img {
   width: 100%;
   height: auto;
 }
 
-.App {
+section {
+  margin: 40px 0;
+}
+
+.app {
   text-align: center;
   margin: 0 auto;
   position: relative;
   max-width: 1760px;
-  padding: 0 80px;
+  padding: 0 80px 160px;
   box-sizing: border-box;
+}
+
+.title {
+  font-weight: 400;
+  text-align: left;
+  padding-left: 8px;
 }
 
 .swiper-wrapper {
@@ -38,4 +58,16 @@ img {
 
 .swiper-slide {
   width: 304px;
+}
+
+@media (max-width: 1240px) {
+  .app {
+    padding: 0 40px 160px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .app {
+    padding: 0 16px 160px;
+  }
 }

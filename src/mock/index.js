@@ -157,4 +157,36 @@ export default {
       ],
     },
   ],
+  best: [
+    {
+      src: `https://a0.muscache.com/im/pictures/435ac21f-c417-41d3-b35e-1befae5a4ee2.jpg?aki_policy=poster`,
+      title: `Первоклассные хозяева`,
+      memories: 11,
+      key: 24,
+    },
+    {
+      src: `https://a0.muscache.com/im/pictures/435ac21f-c417-41d3-b35e-1befae5a4ee2.jpg?aki_policy=poster`,
+      title: `Первоклассные хозяева`,
+      memories: 11,
+      key: 25,
+    },
+    {
+      src: `https://a0.muscache.com/im/pictures/435ac21f-c417-41d3-b35e-1befae5a4ee2.jpg?aki_policy=poster`,
+      title: `Первоклассные хозяева`,
+      memories: 11,
+      key: 26,
+    },
+    {
+      src: `https://a0.muscache.com/im/pictures/435ac21f-c417-41d3-b35e-1befae5a4ee2.jpg?aki_policy=poster`,
+      title: `Первоклассные хозяева`,
+      memories: 11,
+      key: 27,
+    },
+    {
+      src: `https://a0.muscache.com/im/pictures/435ac21f-c417-41d3-b35e-1befae5a4ee2.jpg?aki_policy=poster`,
+      title: `Первоклассные хозяева`,
+      memories: 11,
+      key: 28,
+    },
+  ],
 };

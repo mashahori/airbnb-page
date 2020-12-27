@@ -1,3 +1,37 @@
 .text {
   text-align: left;
+
+  &__icon {
+    margin-right: 4px;
+  }
+
+  &__intro {
+    font-size: 14px;
+  }
+
+  &__description {
+    margin: 7px 0 6px;
+  }
+  
+  &__city,
+  &__count {
+    color: #717171;
+  }
+
+  &__count {
+    margin-right: 4px;
+  }
+
+  &__city {
+    position: relative;
+    padding-left: 8px;
+
+    &:before {
+      content: '·';
+      width: 2px;
+      height: 2px;
+      position: absolute;
+      left: 0;
+    }
+  }
 }

@@ -1,0 +1,10 @@
+.list {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+
+  &--best {
+    flex-wrap: none;
+    overflow-x: scroll;
+  }
+}

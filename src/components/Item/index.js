@@ -1,12 +1,4 @@
 import { useState } from "react";
-import {
-  CardHeader,
-  CardMedia,
-  CardContent,
-  CardActions,
-  // Card,
-  withStyles,
-} from "@material-ui/core";
 import { Card, Gallery } from "../../components";
 import "./index.scss";
 

@@ -22,5 +22,9 @@
   &__logo {
     width: 102px;
     display: inline-block;
+
+    @media (max-width: 740px) {
+      display: none;      
+    }
   }
 }

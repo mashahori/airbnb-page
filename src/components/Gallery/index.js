@@ -1,5 +1,4 @@
-import { useState, useRef } from "react";
-import { TextField, Button, withStyles } from "@material-ui/core";
+import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, EffectFade, Zoom } from "swiper";
 import "./index.scss";

@@ -1,12 +1,11 @@
 import { List } from "../../components";
-
 import "./index.scss";
 
-const Best = ({ items }) => (
+const Header = ({ items }) => (
   <section>
     <h1 className="title">Сиэтл: лучшее</h1>
     <List items={items} type="best" />
   </section>
 );
 
-export default Best;
+export default Header;

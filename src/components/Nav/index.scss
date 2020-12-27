@@ -4,6 +4,10 @@
   max-width: 300px;
   align-items: center;
 
+  @media (max-width: 740px) {
+    display: none;      
+  }
+
   &__icon {
     width: 16px;
   }

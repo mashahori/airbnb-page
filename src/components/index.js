@@ -6,3 +6,5 @@ export { default as Gallery } from "./Gallery";
 export { default as Experiences } from "./Experiences";
 export { default as Best } from "./Best";
 export { default as BestItem } from "./BestItem";
+export { default as Header } from "./Header";
+export { default as Nav } from "./Nav";

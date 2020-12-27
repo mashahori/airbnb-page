@@ -1,3 +1,8 @@
+::-webkit-scrollbar { /* chrome based */
+  width: 0px;
+  background: transparent;
+}
+
 html {
   -ms-overflow-style: none;  /* IE 10+ */
   scrollbar-width: none; /* Firefox */
@@ -31,13 +36,39 @@ section {
   margin: 40px 0;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
 .app {
-  text-align: center;
+  padding-bottom: 160px;
+}
+
+.handler {
   margin: 0 auto;
   position: relative;
   max-width: 1760px;
-  padding: 0 80px 160px;
+  padding: 0 80px;
   box-sizing: border-box;
+}
+
+.handler--header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  border-radius: 21px;
+}
+
+.button:hover {
+  background: #F7F7F7;
 }
 
 .title {
@@ -61,13 +92,13 @@ section {
 }
 
 @media (max-width: 1240px) {
-  .app {
-    padding: 0 40px 160px;
+  .handler {
+    padding: 0 40px;
   }
 }
 
 @media (max-width: 1024px) {
-  .app {
-    padding: 0 16px 160px;
+  .handler {
+    padding: 0 16px;
   }
 }

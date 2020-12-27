@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  align-items: center;
+
+  &__icon {
+    width: 16px;
+  }
+
+  &__button {
+    border-radius: 21px;
+    padding: 12px;
+    
+    &:focus {
+      outline: none;
+      border: 1px solid #DDDDDD;
+    }
+  }
+
+  &__user {
+    border: 1px solid #DDDDDD;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 5px 12px;
+    width: 80px;
+    box-sizing: border-box;
+    align-items: center;
+    margin-left: 8px;
+  }
+}
